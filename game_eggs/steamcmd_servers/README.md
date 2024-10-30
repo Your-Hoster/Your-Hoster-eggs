@@ -1,29 +1,33 @@
-# 7 Days to Die
+# SCP: Secret Laboratory
 
-Steam Description
-Set in a brutally unforgiving post-apocalyptic world overrun by the undead, 7 Days to Die is an open-world game that is a unique combination of first person shooter, survival horror, tower defense, and role-playing games. It presents combat, crafting, looting, mining, exploration, and character growth, in a way that has seen a rapturous response from fans worldwide. Play the definitive zombie survival sandbox RPG that came first. Navezgane awaits!
+## [dedicated](dedicated/)
 
-## Server Ports
+SCP: Secret Laboratory Dedicated Linux Server AddID: [996560](https://steamdb.info/app/996560/)
+This Server is NOT compatible with ServerMod2 or MultiAdmin
 
-7 Days to Die requires up to 6 ports
+## [Exiled Plugin Framework](exiled)
 
-| Port    | default       |
-|---------|---------------|
-| Game    | 26900 - 26902 |
-| RCON    | 8080 - 8081   |
-| webmap  | 8082          |
+SCP: Secret Laboratory Pterodactyl egg with Exiled Plugin Framework <https://github.com/Exiled-Team/EXILED>
 
-## Sample ignore file for backups 
+## Minimum RAM
 
-By default the backup includes a lot of files that can be reacquired by pulling the image. Using the following file limits backups to the files that are unique to your server: your config files, logs, saves and generated worlds.
+Minimum memory required to run the server: 3096 MB
 
-```
-# Ignore all
-*
-# Except server config file
-!serverconfig.xml 
-# Except server data dir
-!.local/
-# Except logs
-!logs/
-```
+## Server Port
+
+Default port required to run the server.
+
+| Port    | Default |
+|---------|---------|
+| Game    | 7777    |
+
+## Verification
+
+The server must be verified with the SCP:SL developers in order for it to be visible in the server browser.
+
+Instructions are as follows:
+
+* Make sure your server complies with the [Verified Server Rules](https://scpslgame.com/Verified_server_rules.pdf).
+* Send an email to `server.verification@scpslgame.com` from your configured contact email with the following information:
+  1. The **public** IPv4 address of your server, with port. e.g. `69.69.69.69:7777`
+  2. If the server's IP is static or dynamic.
